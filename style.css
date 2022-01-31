@@ -1,0 +1,117 @@
+/* ===== GOOGLE FONTS ===== */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+/* ===== Variables css ===== */
+:root {
+	--main-color: #ffc168;
+	background-image: url("https://theuxgamer.com/wp-content/uploads/2018/10/work-background.jpg");
+	--text-color: #4c4c6d;
+    --hover-color: #7979b6;
+}
+
+/* ==== BASIC SETTINGS ==== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5rem;
+	background-color: var(--background-color);
+	font-family: "Ubuntu", sans-serif;
+	color: var(--text-color);
+}
+
+/* ===== MAIN CSS ===== */
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+#todo {
+	min-width: 620px;
+	min-height: 80vh;
+	background: var(--main-color);
+	border-radius: 25px;
+	padding: 50px;
+	box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.3);
+}
+#todo h1 {
+	font-weight: 500;
+	font-size: 4rem;
+}
+
+/* Form */
+.add-task {
+	margin-top: 60px;
+}
+.add-task p {
+	margin-bottom: 10px;
+}
+
+.add-task #text {
+	width: 82%;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	padding: 10px 15px;
+}
+.add-task #text::placeholder {
+	opacity: 0.5;
+}
+.add-task #submit {
+	margin-left: 15px;
+	outline: none;
+	border: none;
+	background-color: var(--background-color);
+	padding: 10px 20px;
+	border-radius: 15px;
+	cursor: pointer;
+	color: white;
+	background-color: var(--text-color);
+    transition: 0.3s ease;
+}
+.add-task #submit:hover {
+    background: var(--hover-color);
+}
+.add-task hr {
+	margin: 60px auto;
+	border: 0;
+	height: 1px;
+	background-color: white;
+	width: 80%;
+	opacity: 0.8;
+}
+
+/* Individual task */
+.task {
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 15px;
+	margin-bottom: 35px;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 1.7rem;
+}
+.task input {
+	outline: none;
+	border: none;
+	background: transparent;
+	color: var(--text-color);
+	cursor: pointer;
+    margin: 0 10px;
+}
+
+.done {
+    background: lightgreen !important;
+    color: white;
+}
+.btn-done {
+    visibility: hidden;
+}
