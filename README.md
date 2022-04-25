@@ -3,11 +3,11 @@
 <div align="center">
   <br/>
   <p>
-    <img src="https://image.thum.io/get/width/1920/crop/675/noanimate/https://elioking1-todo.glitch.me" width="546" alt="Elio Portfolio" />
+    <img src="https://www.marketing91.com/wp-content/uploads/2020/03/To-do-List-scaled.jpg" width="546" alt="Elioking1 todo" />
   </p>
   <br/>
   <p>
-    <a href="https://github.com/Elioking1/elio-portfolio"><img src="https://badgen.net/github/watchers/Elioking1/elio-portfolio"></a>
+    <a href="https://github.com/Elioking1/elioking1-todo"><img src="https://badgen.net/github/watchers/Elioking1/elioking1-todo"></a>
     <a href="https://glitch.com"><img src="https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white"></a>
   </p>
 </div>
