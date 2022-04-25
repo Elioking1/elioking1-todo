@@ -3,8 +3,8 @@
 
 /* ===== Variables css ===== */
 :root {
-	--main-color: #ffc168;
-	background-image: url("https://theuxgamer.com/wp-content/uploads/2018/10/work-background.jpg");
+	--main-color: #9c9c9c27;
+	background-color: rgb(240, 57, 57);
 	--text-color: #4c4c6d;
     --hover-color: #7979b6;
 }
@@ -43,6 +43,11 @@ main {
 #todo h1 {
 	font-weight: 500;
 	font-size: 4rem;
+}
+
+#todo h2 {
+	font-weight: 300;
+	font-size: 3rem;
 }
 
 /* Form */
